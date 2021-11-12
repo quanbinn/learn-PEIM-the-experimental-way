@@ -1,6 +1,6 @@
-# learn-PEIM-the-experimental-way
-
-# 《用实体实验法学个人环境信息模型》是一个基于实体实验的交互式教程。将会涉及光，计算机视觉，和近视防控等方面内容。
+# Learn 
+Light, Computer Vision, & Myopia Prevention And Control The Experimental Way
+# 《用实体实验法学光，计算机视觉，和近视防控》是一个基于实体实验的交互式教程。
 
 ### 对几何形体进行建模
 
