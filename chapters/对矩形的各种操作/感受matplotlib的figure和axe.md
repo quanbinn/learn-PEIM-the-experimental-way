@@ -9,6 +9,47 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
+import matplotlib.pyplot as plt
+
+f1=plt.figure()
+plt.title("figure1")
+
+f2=plt.figure()
+plt.title("figure2")
+
+f3=plt.figure(5)
+plt.title("figure5")
+
+f6=plt.figure(6,(4,4),100)
+plt.title("figure6")
+
+f7=plt.figure(7,None,None,'#FFD700','#FF0000')
+plt.title("figure7")
+plt.show()
+```
+
+```python
+from matplotlib import pyplot as plt
+import numpy as np
+
+x = np.linspace(-np.pi, np.pi, 256)
+y1 = np.sin(x)
+y2 = np.cos(x)
+ 
+fig1 = plt.figure(num='first')
+fig1.suptitle('first figure')
+plt.plot(x, y1)
+ 
+fig2 = plt.figure(num='second')
+fig2.suptitle('second figure')
+plt.plot(x, y2)
+ 
+plt.figure(num=1)  #plt.figure(num='first')
+plt.plot(x, y2)
+plt.show()
+```
+
+```python
 from matplotlib import pyplot as plt
 import numpy as np
 plt.axis('equal')
@@ -24,7 +65,11 @@ plt.show()
 1. 维基百科
 	- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) | [Matplotlib库](https://en.wikipedia.org/wiki/Matplotlib)
 	- [John D. Hunter](https://en.wikipedia.org/wiki/John_D._Hunter#Matplotlib)
+	- [**matplotlib.pyplot.figure**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html)
+	- [**matplotlib.pyplot.axis**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axis.html)
 
-2. [Matplotlib绘制等比横纵坐标](https://www.freesion.com/article/7043673244/) 
+2. [matplotlib.pyplot.figure函数使用总结](https://blog.csdn.net/black_shuang/article/details/81299200)
+3. [matplotlib之figure()详解](https://blog.csdn.net/black_shuang/article/details/81299200) ) 
 
-3. [Simple Line Plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html) 
+4. [Matplotlib绘制等比横纵坐标](https://www.freesion.com/article/7043673244/) 
+
