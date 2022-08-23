@@ -38,8 +38,8 @@
 	- [在一个给定的大矩形区域内的任意位置绘出一个小矩形](/chapters/矩形在智能建筑设计算法中的应用/随机生成矩形左下角点的坐标/在一个给定的大矩形区域内的任意位置绘出一个小矩形.md)
 
 ### 射线在个人环境信息模型的应用
-- 理解matplotlib的三维空间？？
-	- [感受matplotlib的figure和axe](/chapters/射线在个人环境信息模型的应用/---感受matplotlib的figure和axe.md) 
+- 用matplotlib绘制三维图像
+	- [感受matplotlib的figure,axes和axis](/chapters/射线在个人环境信息模型的应用/用matplotlib绘制三维图像/感受matplotlib的figure,axes和axis.md) 
 
 ### 布尔运算
 - [判断两条线段是否能够相交](/chapters/布尔运算/判断两条线段是否能够相交.md)
