@@ -1,4 +1,4 @@
-# 感受matplotlib的figure和axe
+# 感受matplotlib的figure,axes和axis
 
 ## 开始做实体实验
 
