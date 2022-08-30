@@ -16,9 +16,12 @@
 - [感受透视图像中前后三维物体的区域远近形成的遮挡](/chapters/用双目视觉传感器模仿人眼获取环境点云/感受透视图像中前后三维物体的区域远近形成的遮挡.md)
 
 ### 对矩形的各种操作
-- 理解用于绘制二维图像的画布和坐标系: [感受matplotlib的figure,axes,axis和subplot](/chapters/对矩形的各种操作/感受matplotlib的figure,axes,axis和subplot.md) 
+- 理解用于绘制二维图像的画布和坐标系: 
+	- [pyplot.plot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.plot().md) | [pyplot.show()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.show().md) 
+	- [figure()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().md) | [subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplot().md) | [subplots()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplots().md) 
+	- [figure().add_axes()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_axes().md) | [figure().add_subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_subplot().md) 
 - 创建矩形类: [创建矩形区域的类](/chapters/对矩形的各种操作/创建矩形区域的类.md) 
-- 对距形空间位置的基本操作: [移动](/chapters/对矩形的各种操作/移动.md) | [旋转](/chapters/对矩形的各种操作/旋转.md) | [对齐](/chapters/对矩形的各种操作/对齐.md) 
+- 对距形空间位置的基本操作: [移动](/chapters/对矩形的各种操作/对距形空间位置的基本操作/移动.md) | [旋转](/chapters/对矩形的各种操作/对距形空间位置的基本操作/旋转.md) | [对齐](/chapters/对矩形的各种操作/对距形空间位置的基本操作/对齐.md) 
 - 对两个或多个距形的运算
 	- [计算出两个矩形中心的距离](/chapters/对矩形的各种操作/计算出两个矩形中心的距离.md) | [计算出两个矩形的交并比](/chapters/对矩形的各种操作/计算出两个矩形的交并比.md)
 
@@ -38,7 +41,8 @@
 	- [计算出多个矩形中心点到基地主次入口的距离之和](/chapters/矩形在智能建筑设计算法中的应用/到一个或多个空间点之间的距离总和最小/计算出多个矩形中心点到基地主次入口的距离之和.md)
 
 ### 射线在个人环境信息模型的应用
-- 理解用于绘制三维图像的画布和坐标系: [感受matplotlib的figure,axes,axis和subplot](/chapters/射线在个人环境信息模型的应用/理解用于绘制三维图像的画布和坐标系/感受matplotlib的figure,axes,axis和subplot.md)
+- 理解用于绘制三维图像的画布和坐标系: 
+	- [感受matplotlib的figure,axes,axis和subplot](/chapters/射线在个人环境信息模型的应用/理解用于绘制三维图像的画布和坐标系/感受matplotlib的figure,axes,axis和subplot.md)
 - 绘出基本的空间几何元素: [空间线段](/chapters/射线在个人环境信息模型的应用/绘出基本的空间几何元素/空间线段.md) | [非倾斜平面](/chapters/射线在个人环境信息模型的应用/绘出基本的空间几何元素/非倾斜平面.md) | [倾斜平面](/chapters/射线在个人环境信息模型的应用/绘出基本的空间几何元素/倾斜平面.md) 
 
 ### 布尔运算

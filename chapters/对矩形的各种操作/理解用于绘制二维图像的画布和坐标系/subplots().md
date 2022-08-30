@@ -1,11 +1,4 @@
-# 感受matplotlib的figure,axes,axis和subplot
-
-## 绘图软件本质上是让物体的二维或三维的空间坐标矩阵显示在屏幕上。
-## Matplotlib就是一个典型的绘图软件。
-
-- **plt.figure()生成了一个固定轮廓的画布，可以修改相应的参数。**
-- **plt.subplots()生成了画布上的一个区域，可以修改相应的参数。？？**
-- **xaxis和yaxis分别是相应的坐标轴，可以修改相应的参数。**
+# 感受matplotlib的subplots()
 
 ## 开始做实体实验
 
@@ -72,11 +65,4 @@ plt.show()
 1. 维基百科
 	- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) | [Matplotlib库](https://en.wikipedia.org/wiki/Matplotlib)
 	- [John D. Hunter](https://en.wikipedia.org/wiki/John_D._Hunter#Matplotlib)
-	- [**matplotlib.pyplot.figure**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html)
-	- [**matplotlib.pyplot.axis**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axis.html)
-
-2. [matplotlib.pyplot.figure函数使用总结](https://blog.csdn.net/black_shuang/article/details/81299200)
-3. [matplotlib之figure()详解](https://blog.csdn.net/black_shuang/article/details/81299200) ) 
-
-4. [Matplotlib绘制等比横纵坐标](https://www.freesion.com/article/7043673244/) 
-
+	- [**matplotlib.pyplot.subplots**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html)
