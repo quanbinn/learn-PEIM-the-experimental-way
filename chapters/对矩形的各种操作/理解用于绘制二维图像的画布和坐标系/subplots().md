@@ -49,15 +49,19 @@ plt.plot(x, y2)
 plt.show()
 ```
 
+### fig, ax = plt.subplots()
+### fig, axs = plt.subplots(2, 2)
+ 
 ```python
-from matplotlib import pyplot as plt
-import numpy as np
-plt.axis('equal')
+# using the variable ax for single a Axes
+fig, ax = plt.subplots()
 
-x = np.arange(0, 10)
-y = x + 2
-plt.plot(x, y)
-plt.show()
+# using the variable axs for multiple Axes
+fig, axs = plt.subplots(2, 2)
+
+# using tuple unpacking for multiple Axes
+fig, (ax1, ax2) = plt.subplots(1, 2)
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
 ```
 
 ## 参考文献及资料
