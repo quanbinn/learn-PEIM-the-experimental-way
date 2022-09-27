@@ -21,6 +21,7 @@
 	- [figure()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().md) | [subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplot().md) | [subplots()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplots().md) 
 	- [figure().add_axes()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_axes().md) | [figure().add_subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_subplot().md) 
 - 创建矩形类: [创建矩形区域的类](/chapters/对矩形的各种操作/创建矩形区域的类.md) 
+- 对距形空间位置的基本操作: [移动](/chapters/对矩形的各种操作/对距形空间位置的基本操作/移动.md) | [旋转](/chapters/对矩形的各种操作/对距形空间位置的基本操作/旋转.md) | [对齐](/chapters/对矩形的各种操作/对距形空间位置的基本操作/对齐.md) 
 - 对两个或多个距形的运算
 	- [计算出两个矩形中心的距离](/chapters/对矩形的各种操作/计算出两个矩形中心的距离.md) | [计算出两个矩形的交并比](/chapters/对矩形的各种操作/计算出两个矩形的交并比.md)
 
