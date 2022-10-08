@@ -1,5 +1,7 @@
 # 感受matplotlib的figure().add_subplot()
 
+## 本质意义：对创建的矩形绘图区域进行细分，在其区域内加上子矩形绘图区域。
+
 ## 开始做实体实验
 
 ### 在线调试环境
@@ -9,55 +11,7 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
-import matplotlib.pyplot as plt
 
-f1=plt.figure()
-plt.title("figure1")
-
-f2=plt.figure()
-plt.title("figure2")
-
-f3=plt.figure(5)
-plt.title("figure5")
-
-f6=plt.figure(6,(4,4),100)
-plt.title("figure6")
-
-f7=plt.figure(7,None,None,'#FFD700','#FF0000')
-plt.title("figure7")
-plt.show()
-```
-
-```python
-from matplotlib import pyplot as plt
-import numpy as np
-
-x = np.linspace(-np.pi, np.pi, 256)
-y1 = np.sin(x)
-y2 = np.cos(x)
- 
-fig1 = plt.figure(num='first')
-fig1.suptitle('first figure')
-plt.plot(x, y1)
- 
-fig2 = plt.figure(num='second')
-fig2.suptitle('second figure')
-plt.plot(x, y2)
- 
-plt.figure(num=1)  #plt.figure(num='first')
-plt.plot(x, y2)
-plt.show()
-```
-
-```python
-from matplotlib import pyplot as plt
-import numpy as np
-plt.axis('equal')
-
-x = np.arange(0, 10)
-y = x + 2
-plt.plot(x, y)
-plt.show()
 ```
 
 ## 参考文献及资料

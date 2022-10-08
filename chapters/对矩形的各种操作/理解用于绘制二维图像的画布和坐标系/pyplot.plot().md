@@ -1,7 +1,6 @@
 # 感受matplotlib的pyplot.plot()
 
-## 绘图软件本质上是让物体的二维或三维的空间坐标矩阵显示在屏幕上。
-## Matplotlib就是一个典型的绘图软件。
+## 本质意义：在内存中准备好所有的图形信息(例如点和线等)，准备下一步把这些图形信息显示在屏幕上。
 
 ## 开始做实体实验
 
@@ -12,14 +11,7 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
-from matplotlib import pyplot as plt
-import numpy as np
-plt.axis('equal')
 
-x = np.arange(0, 10)
-y = x + 2
-plt.plot(x, y)
-plt.show()
 ```
 
 ## 参考文献及资料
