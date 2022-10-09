@@ -67,7 +67,7 @@ rect1.render()
 plt.show()
 ```
 
-### 创建一个矩形区域
+### 创建两个矩形区域
 
 ```python
 import matplotlib.pyplot as plt
