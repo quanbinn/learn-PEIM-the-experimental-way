@@ -19,4 +19,4 @@
 1. 维基百科
 	- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) | [Matplotlib库](https://en.wikipedia.org/wiki/Matplotlib)
 	- [John D. Hunter](https://en.wikipedia.org/wiki/John_D._Hunter#Matplotlib)
-	- [**matplotlib.pyplot.axes**]https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axes.html)
+	- [**matplotlib.pyplot.axes**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axes.html)
