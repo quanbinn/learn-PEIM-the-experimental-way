@@ -14,6 +14,8 @@
 ### fig, axs = plt.subplots(2, 2)
  
 ```python
+import matplotlib.pyplot as plt
+
 # using the variable ax for single a Axes
 fig, ax = plt.subplots()
 
@@ -23,6 +25,20 @@ fig, axs = plt.subplots(2, 2)
 # using tuple unpacking for multiple Axes
 fig, (ax1, ax2) = plt.subplots(1, 2)
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
+```
+
+```python
+import matplotlib.pyplot as plt
+
+def example_plot(ax):
+    ax.plot([10, 1])
+    ax.set_xlabel('x-label')
+    ax.set_ylabel('y-label')
+    ax.set_title('Title', fontsize=next(fontsizes))
+    
+fig, ax = plt.subplots()
+
+example_plot(ax)
 ```
 
 ## 参考文献及资料

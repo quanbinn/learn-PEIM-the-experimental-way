@@ -11,7 +11,13 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
+import matplotlib.pyplot as plt
 
+# Creating a new full window Axes
+plt.axes()
+
+# Creating a new Axes with specified dimensions and a grey background
+plt.axes((left, bottom, width, height), facecolor='grey')
 ```
 
 ## 参考文献及资料
