@@ -1,4 +1,4 @@
-# 使用The mplot3d Toolkit绘制三维几何图形
+# 使用The mplot3d Toolkit绘制两个三维点连成的线段
 
 ## 开始做实体实验
 
@@ -9,28 +9,26 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
-#导入三维工具包mplot3d
-from mpl_toolkits import mplot3d
-import numpy as np
+from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
-fig = plt.figure()
-#创建3d绘图区域
-ax = plt.axes(projection='3d')
-
-#从三个维度构建
-z = np.linspace(0, 1, 100)
-x = z * np.sin(20 * z)
-y = z * np.cos(20 * z)
-
-#调用 ax.plot3D创建三维线图
-ax.plot3D(x, y, z, 'gray')
-ax.set_title('3D line plot')
+ 
+# 打开画图窗口1，在三维空间中绘图
+fig = plt.figure(1)
+ax = fig.gca(projection='3d')
+ 
+# 给出点（0，0，0）和（100，200，300）
+x = [0, 100]
+y = [0, 200]
+z = [0, 300]
+ 
+# 将数组中的前两个点进行连线
+figure = ax.plot(x, y, z, c='r')
 plt.show()
 ```
 
 ## 参考文献及资料
 
 1. [The mplot3d Toolkit from matplotlib.org](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html)
-2. [Python Matplotlib 3D绘图详解（汇总）](http://m.biancheng.net/matplotlib/3d-plot.html)
+2. [python 画二维、三维点之间的线段实现方法](https://www.jb51.net/article/164754.htm)
 
 
