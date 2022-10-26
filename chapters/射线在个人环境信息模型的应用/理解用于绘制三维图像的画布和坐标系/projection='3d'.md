@@ -1,4 +1,4 @@
-# 使用The mplot3d Toolkit绘制两个三维点连成的线段
+# projection='3d'
 
 ## 开始做实体实验
 
@@ -29,6 +29,8 @@ plt.show()
 ## 参考文献及资料
 
 1. [The mplot3d Toolkit from matplotlib.org](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html)
-2. [python 画二维、三维点之间的线段实现方法](https://www.jb51.net/article/164754.htm)
+2. [**mpl_toolkits.mplot3d.axes3d.Axes3D**](https://matplotlib.org/stable/api/_as_gen/mpl_toolkits.mplot3d.axes3d.Axes3D.html#mpl_toolkits.mplot3d.axes3d.Axes3D)
+3. [add_subplot(*args, **kwargs)](https://matplotlib.org/stable/api/figure_api.html#matplotlib.figure.Figure.add_subplot)
+4. [python 画二维、三维点之间的线段实现方法](https://www.jb51.net/article/164754.htm)
 
 
