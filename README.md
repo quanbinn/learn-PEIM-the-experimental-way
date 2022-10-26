@@ -19,7 +19,7 @@
 ### 对矩形的各种操作
 
 - 理解用于绘制二维图像的画布和坐标系: 
-	- [pyplot.plot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.plot().md) | [pyplot.show()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.show().md) 
+	- [pyplot.scatter()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.scatter().md) | [pyplot.plot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.plot().md) | [pyplot.show()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.show().md) 
 	- [axes()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/axes().md) | [figure()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().md) | [subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplot().md) | [subplots()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplots().md) 
 	- [figure().add_axes()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_axes().md) | [figure().add_subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_subplot().md) 
 - 创建矩形类: [创建矩形区域的类](/chapters/对矩形的各种操作/创建矩形类/创建矩形区域的类.md) 
