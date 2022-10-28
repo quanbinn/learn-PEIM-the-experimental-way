@@ -9,20 +9,22 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
-from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
- 
-# 打开画图窗口1，在三维空间中绘图
-fig = plt.figure(1)
-ax = fig.gca(projection='3d')
- 
-# 给出点（0，0，0）和（100，200，300）
-x = [0, 100]
-y = [0, 200]
-z = [0, 300]
- 
-# 将数组中的前两个点进行连线
-figure = ax.plot(x, y, z, c='r')
+from matplotlib import cm
+import numpy as np
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+X = np.arange(-5, 5, 0.25)
+Y = np.arange(-5, 5, 0.25)
+X, Y = np.meshgrid(X, Y)
+
+R = np.sqrt(X**2 + Y**2)
+Z = np.sin(R)
+
+ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.coolwarm, linewidth=0, antialiased=False)
+
 plt.show()
 ```
 

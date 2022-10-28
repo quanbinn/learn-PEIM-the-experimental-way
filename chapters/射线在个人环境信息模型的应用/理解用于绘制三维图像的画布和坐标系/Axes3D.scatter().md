@@ -9,20 +9,26 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
-from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
- 
-# 打开画图窗口1，在三维空间中绘图
-fig = plt.figure(1)
-ax = fig.gca(projection='3d')
- 
-# 给出点（0，0，0）和（100，200，300）
-x = [0, 100]
-y = [0, 200]
-z = [0, 300]
- 
-# 将数组中的前两个点进行连线
-figure = ax.plot(x, y, z, c='r')
+import numpy as np
+
+np.random.seed(19680801)    # Fixing random state for reproducibility
+
+def randrange(n, vmin, vmax):
+    return (vmax - vmin)*np.random.rand(n) + vmin
+
+ax = plt.figure().add_subplot(111, projection='3d')
+
+n = 100
+
+# For each set of style and range settings, plot n random points in the box
+# defined by x in [23, 32], y in [0, 100], z in [zlow, zhigh].
+for m, zlow, zhigh in [('o', -50, -25), ('^', -30, -5)]:
+    xs = randrange(n, 23, 32)
+    ys = randrange(n, 0, 100)
+    zs = randrange(n, zlow, zhigh)
+    ax.scatter(xs, ys, zs, marker=m)
+
 plt.show()
 ```
 
