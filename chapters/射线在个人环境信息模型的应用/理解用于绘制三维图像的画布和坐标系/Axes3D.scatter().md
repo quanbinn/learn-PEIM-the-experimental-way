@@ -1,4 +1,4 @@
-# Axes3D.scatter()
+# 感受matplotlib的Axes3D.scatter()
 
 ## 开始做实体实验
 
@@ -8,26 +8,39 @@
 - 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
+### 渲染出1个点
+ 
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
 
-np.random.seed(19680801)    # Fixing random state for reproducibility
+ax = plt.figure().add_subplot(111, projection='3d')
+ax.scatter([0], [0], [0])
 
-def randrange(n, vmin, vmax):
-    return (vmax - vmin)*np.random.rand(n) + vmin
+plt.show()
+```
+
+### 渲染出2个点
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
 
 ax = plt.figure().add_subplot(111, projection='3d')
+ax.scatter([0,10], [0,10], [0,10])
 
-n = 100
+plt.show()
+```
 
-# For each set of style and range settings, plot n random points in the box
-# defined by x in [23, 32], y in [0, 100], z in [zlow, zhigh].
-for m, zlow, zhigh in [('o', -50, -25), ('^', -30, -5)]:
-    xs = randrange(n, 23, 32)
-    ys = randrange(n, 0, 100)
-    zs = randrange(n, zlow, zhigh)
-    ax.scatter(xs, ys, zs, marker=m)
+### 渲染出多个点
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+ax = plt.figure().add_subplot(111, projection='3d')
+ax.scatter([0,10,50], [0,10,50], [0,10, 50])
+# ax.scatter([0,10,50,100], [0,10,50,50], [0,10, 50,10])
 
 plt.show()
 ```

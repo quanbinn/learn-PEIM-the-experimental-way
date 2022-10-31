@@ -1,4 +1,4 @@
-# Axes3D.plot()
+# 感受matplotlib的Axes3D.plot()
 
 ## 开始做实体实验
 
@@ -7,6 +7,22 @@
 - 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
 - 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
+
+### 渲染出多个点连成的直线
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+ax = plt.figure().add_subplot(111, projection='3d')
+ax.scatter([0,10,50], [0,10,50], [0,10, 50])
+ax.plot([0,10,50], [0,10,50], [0,10, 50])
+# ax.scatter([0,10,50,100], [0,10,50,50], [0,10, 50,10])
+# ax.plot([0,10,50,100], [0,10,50,50], [0,10, 50,10])
+
+plt.show()
+```
+### 渲染出多个点连成的参数化曲线
 
 ```python
 import numpy as np
@@ -23,22 +39,6 @@ y = r * np.cos(theta)
 
 ax.plot(x, y, z)
 
-plt.show()
-```
-
-```python
-import matplotlib.pyplot as plt
-
-fig = plt.figure(1)
-ax = fig.gca(projection='3d')
- 
-# 给出点（0，0，0）和（100，200，300）
-x = [0, 100]
-y = [0, 200]
-z = [0, 300]
- 
-# 将数组中的前两个点进行连线
-figure = ax.plot(x, y, z, c='r')
 plt.show()
 ```
 

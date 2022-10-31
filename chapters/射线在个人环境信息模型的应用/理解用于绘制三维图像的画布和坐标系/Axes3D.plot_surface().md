@@ -1,4 +1,4 @@
-# Axes3D.plot_surface()
+# 感受matplotlib的Axes3D.plot_surface()
 
 ## 开始做实体实验
 
