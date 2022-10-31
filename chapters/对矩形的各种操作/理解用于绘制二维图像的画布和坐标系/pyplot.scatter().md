@@ -10,6 +10,29 @@
 - 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
+### 在二维平面渲染出1个点
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.scatter(0,0)
+plt.show()
+```
+
+### 在二维平面渲染出两个或多个点
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.scatter([0,5],[0,5])
+# plt.scatter([0,5,10],[0,5,10])
+# plt.scatter([0,5,10,20],[0,5,10,5])
+
+plt.show()
+```
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
