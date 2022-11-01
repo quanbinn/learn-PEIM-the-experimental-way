@@ -2,8 +2,6 @@
 
 ## 本质意义：创建1个母矩形绘图区域和一系列的子矩形绘图区域（其中包含1个或多个Axes对象）。
 
-## 开始做实体实验
-
 ### 在线调试环境
 
 - 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。

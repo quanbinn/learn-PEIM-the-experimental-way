@@ -2,8 +2,6 @@
 
 ## 本质意义：创建一个空白的矩形图框，随后用plot()在内存中准备好所有的图形信息，最后调用show()把这些图形信息显示在屏幕上。
 
-## 开始做实体实验
-
 ### 在线调试环境
 
 - 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。

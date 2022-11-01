@@ -2,8 +2,6 @@
 
 ## 本质意义：创建一个包含了大多数图形元素：轴、记号、Line2D、文本、多边形等，并设置了坐标系的对象。 
 
-## 开始做实体实验
-
 ### 在线调试环境
 
 - 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
