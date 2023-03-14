@@ -21,15 +21,15 @@ plt.ylabel("Y")
 plt.title("Render a box in a rectanglar area")
 
 class Rectangle_center:
-    def __init__(self, xOfCenter, yOfCenter, width, height):
+    def __init__(self, xOfCenter, yOfCenter, length, width):
         self.xOfCenter = xOfCenter
         self.yOfCenter = yOfCenter
-        self.x1 = xOfCenter - width / 2
-        self.y1 = yOfCenter - height / 2
-        self.x2 = xOfCenter + width / 2
-        self.y2 = yOfCenter + height / 2
-        self.width = width
-        self.height = height        
+        self.x1 = xOfCenter - length / 2
+        self.y1 = yOfCenter - width / 2
+        self.x2 = xOfCenter + length / 2
+        self.y2 = yOfCenter + width / 2
+        self.length = length
+        self.width = width        
     
     def getxofCenter(self): return self.getxofCenter
     def getyOfCenter(self): return self.yOfCenter
@@ -37,11 +37,11 @@ class Rectangle_center:
     def gety1(self): return self.y1
     def getx2(self): return self.x2
     def gety2(self): return self.y2
-    def getWidth(self): return self.width
-    def getHeight(self): return self.height
+    def getlength(self): return self.length
+    def getwidth(self): return self.width
 
     def area(self):
-        area = self.width * self.height
+        area = self.length * self.width
         return area
 
     def centralCoordinates(self):
@@ -78,15 +78,15 @@ plt.ylabel("Y")
 plt.title("Render a box in a rectanglar area of figure1")
 
 class Rectangle_center:
-    def __init__(self, xOfCenter, yOfCenter, width, height):
+    def __init__(self, xOfCenter, yOfCenter, length, width):
         self.xOfCenter = xOfCenter
         self.yOfCenter = yOfCenter
-        self.x1 = xOfCenter - width / 2
-        self.y1 = yOfCenter - height / 2
-        self.x2 = xOfCenter + width / 2
-        self.y2 = yOfCenter + height / 2
-        self.width = width
-        self.height = height        
+        self.x1 = xOfCenter - length / 2
+        self.y1 = yOfCenter - width / 2
+        self.x2 = xOfCenter + length / 2
+        self.y2 = yOfCenter + width / 2
+        self.length = length
+        self.width = width        
     
     def getxofCenter(self): return self.getxofCenter
     def getyOfCenter(self): return self.yOfCenter
@@ -94,11 +94,11 @@ class Rectangle_center:
     def gety1(self): return self.y1
     def getx2(self): return self.x2
     def gety2(self): return self.y2
-    def getWidth(self): return self.width
-    def getHeight(self): return self.height
+    def getlength(self): return self.length
+    def getwidth(self): return self.width
 
     def area(self):
-        area = self.width * self.height
+        area = self.length * self.width
         return area
 
     def centralCoordinates(self):
