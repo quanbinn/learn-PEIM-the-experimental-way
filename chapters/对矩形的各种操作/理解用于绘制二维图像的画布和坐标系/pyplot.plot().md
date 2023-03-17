@@ -46,10 +46,10 @@ class Rectangle_center:
         p3 = [self.x2, self.y2]
         p4 = [self.x1, self.y2]
 
-        plt.plot([p1[0], p2[0]],[p1[1], p2[1]],color="green")
-        plt.plot([p2[0], p3[0]],[p2[1], p3[1]],color="green")
-        plt.plot([p3[0], p4[0]],[p3[1], p4[1]],color="green")
-        plt.plot([p4[0], p1[0]],[p4[1], p1[1]],color="green")   
+        plt.plot([p1[0], p2[0]],[p1[1], p2[1]],color="green")			# [x1,x2,x3,...],[y1,y2,y3,...]
+        plt.plot([p2[0], p3[0]],[p2[1], p3[1]],color="green")			# [x1,x2,x3,...],[y1,y2,y3,...]
+        plt.plot([p3[0], p4[0]],[p3[1], p4[1]],color="green")			# [x1,x2,x3,...],[y1,y2,y3,...]
+        plt.plot([p4[0], p1[0]],[p4[1], p1[1]],color="green")   		# [x1,x2,x3,...],[y1,y2,y3,...]	
         
 rect1 = Rectangle_center(10,8,12,8)
 rect1.render()

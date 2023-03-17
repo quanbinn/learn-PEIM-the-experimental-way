@@ -14,7 +14,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.scatter(0,0)
+plt.scatter(0,0)					# [x1,x2,x3,...],[y1,y2,y3,...]
 plt.show()
 ```
 
@@ -24,8 +24,8 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.scatter([0,5],[0,5])
-# plt.scatter([0,5,10],[0,5,10])
+plt.scatter([0,5],[0,5])			# [x1,x2,x3,...],[y1,y2,y3,...]
+# plt.scatter([0,5,10],[0,5,10])	
 # plt.scatter([0,5,10,20],[0,5,10,5])
 
 plt.show()

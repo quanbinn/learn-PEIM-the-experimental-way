@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ax = plt.figure().add_subplot(111, projection='3d')
-ax.scatter([0,10,50], [0,10,50], [0,10, 50])
-ax.plot([0,10,50], [0,10,50], [0,10, 50])
+ax.scatter([0,10,50], [0,10,50], [0,10,50])   # ([x1,x2,x3],[y1,y2,y3],[z1,z2,z3]) 
+ax.plot([0,10,50], [0,10,50], [0,10,50])      # ([x1,x2,x3],[y1,y2,y3],[z1,z2,z3])
 # ax.scatter([0,10,50,100], [0,10,50,50], [0,10, 50,10])
 # ax.plot([0,10,50,100], [0,10,50,50], [0,10, 50,10])
 
