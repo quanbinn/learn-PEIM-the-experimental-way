@@ -66,8 +66,7 @@
 ### 射线在个人环境信息模型的应用
 
 - 绘制三维图像的画布和坐标系: 
-	- [projection='3d'](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/projection='3d'.md)
-	- [Axes3D.scatter()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.scatter().md) | [Axes3D.plot()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot().md) | [Axes3D.plot_surface()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot_surface().md) 
+	- [projection='3d'](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/projection='3d'.md) | [Axes3D.scatter()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.scatter().md) | [Axes3D.plot()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot().md) | [Axes3D.plot_surface()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot_surface().md) 
 - 绘出基本的三维空间几何元素:
 	- [特定空间线段](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/特定空间线段.md) | [从一空间点发出特定方向的射线](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/从一空间点发出特定方向的射线.md)  
 	- [非倾斜的水平平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/非倾斜的水平平面.md) | [非倾斜的垂直平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/非倾斜的垂直平面.md) | [倾斜的平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/倾斜的平面.md) 
