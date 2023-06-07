@@ -14,10 +14,10 @@
 
 ### 对矩形的各种操作
 
-- 理解用于绘制二维图像的画布和坐标系: 
-	- [pyplot.scatter()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.scatter().md) | [pyplot.plot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.plot().md) | [pyplot.show()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/pyplot.show().md) 
-	- [axes()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/axes().md) | [figure()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().md) | [subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplot().md) | [subplots()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/subplots().md) 
-	- [figure().add_axes()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_axes().md) | [figure().add_subplot()](/chapters/对矩形的各种操作/理解用于绘制二维图像的画布和坐标系/figure().add_subplot().md) 
+- 绘制二维图像的画布和坐标系: 
+	- [pyplot.scatter()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/pyplot.scatter().md) | [pyplot.plot()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/pyplot.plot().md) | [pyplot.show()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/pyplot.show().md) 
+	- [axes()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/axes().md) | [figure()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/figure().md) | [subplot()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/subplot().md) | [subplots()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/subplots().md) 
+	- [figure().add_axes()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/figure().add_axes().md) | [figure().add_subplot()](/chapters/对矩形的各种操作/绘制二维图像的画布和坐标系/figure().add_subplot().md) 
 - 创建矩形类: [创建矩形区域的类](/chapters/对矩形的各种操作/创建矩形类/创建矩形区域的类.md) 
 - 对两个或多个距形的运算
 	- [计算出两个矩形的交并比](/chapters/对矩形的各种操作/对两个或多个距形的运算/计算出两个矩形的交并比.md)
@@ -76,9 +76,9 @@
 
 ### 射线在个人环境信息模型的应用
 
-- 理解用于绘制三维图像的画布和坐标系: 
-	- [projection='3d'](/chapters/射线在个人环境信息模型的应用/理解用于绘制三维图像的画布和坐标系/projection='3d'.md)
-	- [Axes3D.scatter()](/chapters/射线在个人环境信息模型的应用/理解用于绘制三维图像的画布和坐标系/Axes3D.scatter().md) | [Axes3D.plot()](/chapters/射线在个人环境信息模型的应用/理解用于绘制三维图像的画布和坐标系/Axes3D.plot().md) | [Axes3D.plot_surface()](/chapters/射线在个人环境信息模型的应用/理解用于绘制三维图像的画布和坐标系/Axes3D.plot_surface().md) 
+- 绘制三维图像的画布和坐标系: 
+	- [projection='3d'](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/projection='3d'.md)
+	- [Axes3D.scatter()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.scatter().md) | [Axes3D.plot()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot().md) | [Axes3D.plot_surface()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot_surface().md) 
 - 绘出基本的三维空间几何元素:
 	- [绘出特定空间线段](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/绘出特定空间线段.md) | [从一空间点绘出特定方向的射线](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/从一空间点绘出特定方向的射线.md)  
 	- [绘出非倾斜的水平平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/绘出非倾斜的水平平面.md) | [绘出非倾斜的垂直平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/绘出非倾斜的垂直平面.md) 
