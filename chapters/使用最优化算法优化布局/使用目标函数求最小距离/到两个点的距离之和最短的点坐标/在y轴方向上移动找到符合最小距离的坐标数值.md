@@ -11,7 +11,28 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 ```python
+import random
+import math
 
+x = float(input('input any number between 0 and 20: \n'))	  # x = random.uniform(0,20)
+y = float(input('input any number between 0 and 15: \n'))	  # y = random.uniform(0,15)
+
+p1 = [2,3]		# the 2D coordinates of existing point A
+p2 = [14,12]	# the 2D coordinates of existing point B
+p3 = [x,y]		# the 2D coordinates of desired point C
+
+def sum_of_distances(p1,p2,p3):
+	sum = math.sqrt((p3[0]-p1[0])**2 + (p3[1]-p1[1])**2) + math.sqrt((p3[0]-p2[0])**2 + (p3[1]-p2[1])**2)
+	return sum
+
+init_distances = sum_of_distances(p1, p2, p3)
+print(init_distances)
+
+for i in range(1,20):
+    p3[1] = p3[1] + 1
+    if sum_of_distances(p1, p2, p3) < init_distances:
+        print(p3)
+        print(sum_of_distances(p1, p2, p3))
 ```
 
 ## 参考文献及资料
