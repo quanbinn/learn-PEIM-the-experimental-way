@@ -13,6 +13,8 @@
 #### 在x轴方向，随着x依次变化一个固定的常数值1，同时，在y轴方向，随着y依次变化一个固定的常数值1, 打印出每一次变化后的点距两个给定点的距离之和。
 
 ```python
+import matplotlib.pyplot as plt
+import numpy as np
 import random
 import math
 
@@ -37,11 +39,17 @@ for i in range(1,20):
     if sum_of_distances(p1, p2, p3) < init_distances:
         print(p3)
         print(sum_of_distances(p1, p2, p3))
+        plt.scatter([p3[0]],[p3[1]])
+
+plt.scatter([p1[0],p2[0]],[p1[1],p2[1]])
+plt.show()
 ```
 
 #### 在x轴方向，随着x依次变化一个固定的常数值1，同时，在y轴方向，随着y依次变化一个固定的常数值1，如果在变化后的点距两个给定点的距离之和小于上一个点距两个给定点的距离之和，就打印出这个点坐标及其距离，反之，就不打印出来任何内容。
 
 ```python
+import matplotlib.pyplot as plt
+import numpy as np
 import random
 import math
 
@@ -66,11 +74,17 @@ for i in range(1,20):
 	moved_distances = sum_of_distances(p1, p2, p3)
 	if moved_distances < previous_distances:
 		print('At point ',p3,', the total distances is ',moved_distances)
+		plt.scatter([p3[0]],[p3[1]])
+
+plt.scatter([p1[0],p2[0]],[p1[1],p2[1]])
+plt.show()
 ```
 
 #### 在x轴方向，随着x依次变化一个输入的常数值stepsize，在y轴方向，随着y依次变化一个与输入的常数值stepsize关联的数值，如果在变化后的点距两个给定点的距离之和小于上一个点距两个给定点的距离之和，就打印出这个点坐标及其距离，反之，就不打印出来任何内容。
 
 ```python
+import matplotlib.pyplot as plt
+import numpy as np
 import random
 import math
 
@@ -96,6 +110,10 @@ for i in range(1,20):
 	moved_distances = sum_of_distances(p1, p2, p3)
 	if moved_distances < previous_distances:
 		print('At point ',p3,', the total distances is ',moved_distances)
+		plt.scatter([p3[0]],[p3[1]])
+
+plt.scatter([p1[0],p2[0]],[p1[1],p2[1]])
+plt.show()
 ```
 
 ## 参考文献及资料
