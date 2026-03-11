@@ -53,6 +53,8 @@ class Rectangle_center:
         
 rect1 = Rectangle_center(10,8,12,8)
 rect1.render()
+
+plt.show()
 ```
 
 ## 参考文献及资料
@@ -61,5 +63,4 @@ rect1.render()
 	- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) | [Matplotlib库](https://en.wikipedia.org/wiki/Matplotlib)
 	- [John D. Hunter](https://en.wikipedia.org/wiki/John_D._Hunter#Matplotlib)
 	- [**matplotlib.pyplot.plot**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
-
 

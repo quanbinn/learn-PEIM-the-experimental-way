@@ -72,4 +72,6 @@ rect2 = Rectangle_center(3,3,5,5)
 rect2.render()   
 
 print(distance_of_edges_in_yaxis(rect1, rect2))
+
+plt.show()
 ```
