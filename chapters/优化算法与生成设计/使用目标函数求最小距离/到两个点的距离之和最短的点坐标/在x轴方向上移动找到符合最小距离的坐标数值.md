@@ -4,17 +4,6 @@
 
 ![](/images/优化算法与生成设计/使用目标函数求最小距离/到两个点的距离之和最短的点坐标/在x轴方向上移动找到符合最小距离的坐标数值/1a1.jpg)
 
-### 在线调试环境1
-
-- 单击右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
-- 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
-- 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
-
-### 在线调试环境2
-
-- 单击右方的[Python Online Compiler](https://trinket.io/python3/a5bd54189b)，稍后在浏览器里会显示python的运行环境。
-- 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
-
 #### 在x轴方向，随着x依次变化一个固定的常数值1，打印出每一次变化后的点距两个给定点的距离之和。
 
 ```python
