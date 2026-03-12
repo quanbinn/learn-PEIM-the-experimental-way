@@ -26,10 +26,10 @@
 
 - Matplotlib画布与坐标系
 	- 二维：[pyplot.scatter()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/pyplot.scatter().md) | [pyplot.plot()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/pyplot.plot().md) | [pyplot.show()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/pyplot.show().md) | [axes()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/axes().md) | [figure()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/figure().md) | [subplot()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/subplot().md) | [subplots()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/subplots().md) |  [figure().add_axes()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/figure().add_axes().md) | [figure().add_subplot()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/二维/figure().add_subplot().md) 
-	- 三维：[projection='3d'](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/projection='3d'.md) | [Axes3D.scatter()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.scatter().md) | [Axes3D.plot()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot().md) | [Axes3D.plot_surface()](/chapters/射线在个人环境信息模型的应用/绘制三维图像的画布和坐标系/Axes3D.plot_surface().md)  
+	- 三维：[projection='3d'](/chapters/计算机绘图基础/Matplotlib画布与坐标系/三维/projection='3d'.md) | [Axes3D.scatter()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/三维/Axes3D.scatter().md) | [Axes3D.plot()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/三维/Axes3D.plot().md) | [Axes3D.plot_surface()](/chapters/计算机绘图基础/Matplotlib画布与坐标系/三维/Axes3D.plot_surface().md)  
 	- 绘制三维几何对象
-		- [特定空间线段](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/特定空间线段.md) | [从一空间点发出特定方向的射线](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/从一空间点发出特定方向的射线.md)  
-		- [非倾斜的水平平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/非倾斜的水平平面.md) | [非倾斜的垂直平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/非倾斜的垂直平面.md) | [倾斜的平面](/chapters/射线在个人环境信息模型的应用/绘出基本的三维空间几何元素/倾斜的平面.md) 
+		- [特定空间线段](/chapters/计算机绘图基础/Matplotlib画布与坐标系/绘制三维几何对象/特定空间线段.md) | [从一空间点发出特定方向的射线](/chapters/计算机绘图基础/Matplotlib画布与坐标系/绘制三维几何对象/从一空间点发出特定方向的射线.md)  
+		- [非倾斜的水平平面](/chapters/计算机绘图基础/Matplotlib画布与坐标系/绘制三维几何对象/非倾斜的水平平面.md) | [非倾斜的垂直平面](/chapters/计算机绘图基础/Matplotlib画布与坐标系/绘制三维几何对象/非倾斜的垂直平面.md) | [倾斜的平面](/chapters/计算机绘图基础/Matplotlib画布与坐标系/绘制三维几何对象/倾斜的平面.md) 
 
 ### 二维空间布局算法
 
