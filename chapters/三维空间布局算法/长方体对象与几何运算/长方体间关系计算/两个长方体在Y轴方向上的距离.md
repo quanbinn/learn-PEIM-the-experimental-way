@@ -2,7 +2,7 @@
 
 ## 开始做实体实验
 
-![](/images![](/images/三维空间布局算法/长方体操作/对两个或多个长方体的运算/两个长方体在Y轴方向上的距离/1a1.jpg)
+![](/images![](/images/三维空间布局算法/长方体对象与几何运算/长方体间关系计算/两个长方体在Y轴方向上的距离/1a1.jpg)
 
 ```python
 import matplotlib.pyplot as plt
