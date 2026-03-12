@@ -2,7 +2,7 @@
 
 ## 开始做实体实验
 
-![](/images/二维空间布局算法/矩形操作/对两个或多个距形的运算/两个矩形在Y轴方向上的距离/1a1.jpg)
+![](/images/二维空间布局算法/矩形对象与几何运算/矩形间关系计算/两个矩形在Y轴方向上的距离/1a1.jpg)
 
 ```python
 import matplotlib.pyplot as plt
