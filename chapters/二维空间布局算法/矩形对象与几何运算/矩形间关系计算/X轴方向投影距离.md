@@ -1,8 +1,8 @@
-# 两个矩形在Y轴方向上的距离
+# X轴方向投影距离
 
 ## 开始做实体实验
 
-![](/images/二维空间布局算法/矩形对象与几何运算/矩形间关系计算/两个矩形在Y轴方向上的距离/1a1.jpg)
+![](/images/二维空间布局算法/矩形对象与几何运算/矩形间关系计算/X轴方向投影距离/1a1.jpg)
 
 ```python
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ class Rectangle_center:
         
     def render(self):
         p1 = [self.x1, self.y1]
-        p2 = [self.x2, self.y1] 
+        p2 = [self.x2, self.y1]
         p3 = [self.x2, self.y2]
         p4 = [self.x1, self.y2]
 
@@ -47,20 +47,20 @@ class Rectangle_center:
         plt.plot([p3[0], p4[0]],[p3[1], p4[1]],color="green")
         plt.plot([p4[0], p1[0]],[p4[1], p1[1]],color="green")   
 
-def distance_of_edges_in_yaxis(rect1, rect2):
-    y1 = rect1.centralCoordinates()[1]
-    y2 = rect2.centralCoordinates()[1]
-    dist_of_centralPoints_in_yaxis = abs(y2-y1)
-    distance = dist_of_centralPoints_in_yaxis - (rect1.getwidth()/2 + rect2.getwidth()/2)
+def distance_of_edges_in_xaxis(rect1, rect2):
+    x1 = rect1.centralCoordinates()[0]
+    x2 = rect2.centralCoordinates()[0]
+    dist_of_centralPoints_in_xaxis = abs(x2-x1)
+    distance = dist_of_centralPoints_in_xaxis - (rect1.getlength()/2 + rect2.getlength()/2)
     return distance    
         
 rect1 = Rectangle_center(0,0,10,10)
 rect1.render()
 
-rect2 = Rectangle_center(3,3,5,5)
+rect2 = Rectangle_center(3,15,5,5)
 rect2.render()   
 
-print(distance_of_edges_in_yaxis(rect1, rect2))
+print(distance_of_edges_in_xaxis(rect1, rect2))
 
 plt.show()
 ```
